@@ -1,69 +1,69 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 32702 MB
+OS: 'Windows 10 Pro; OS build 22631.3737; Version 2009; 64bit' Language: 'ko' Physical Memory: 16233 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+D:\2020.3.3f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/N3K/Desktop/LoginFrontend
+C:/Users/zocki/LoginFrontend
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64493
-Successfully changed project path to: C:/Users/N3K/Desktop/LoginFrontend
-C:/Users/N3K/Desktop/LoginFrontend
+1232
+Successfully changed project path to: C:/Users/zocki/LoginFrontend
+C:/Users/zocki/LoginFrontend
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/N3K/Desktop/LoginFrontend/Assets
+[Subsystems] Discovering subsystems at path D:/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zocki/LoginFrontend/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f10)
     Vendor:   
-    VRAM:     8079 MB
-    Driver:   27.21.14.5671
+    VRAM:     8006 MB
+    Driver:   32.0.15.5585
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Mono path[0] = 'D:/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.100234 seconds.
+Register platform support module: D:/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001383 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.495 seconds
+- Completed reload, in  0.928 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.039433 seconds.
+Registered in 0.001590 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
+- Completed reload, in  0.973 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -71,303 +71,197 @@ Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.6 MB.
-System memory in use after: 62.6 MB.
+System memory in use before: 59.9 MB.
+System memory in use after: 59.9 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1579.
-Total: 3.326400 ms (FindLiveObjects: 0.200700 ms CreateObjectMapping: 0.062200 ms MarkObjects: 2.956600 ms  DeleteObjects: 0.105900 ms)
+Total: 2.538200 ms (FindLiveObjects: 0.216500 ms CreateObjectMapping: 0.062900 ms MarkObjects: 2.167500 ms  DeleteObjects: 0.089800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/LoginResponse.cs
-  artifactKey: Guid(31b8c1f9ea8bc5541a81978ef79537c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoginResponse.cs using Guid(31b8c1f9ea8bc5541a81978ef79537c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e42847ef5e9c969426d6cad7aaa3c9') in 0.020635 seconds
-  Import took 0.022222 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000465 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.613 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1582.
-Total: 1.903500 ms (FindLiveObjects: 0.297100 ms CreateObjectMapping: 0.081500 ms MarkObjects: 1.473000 ms  DeleteObjects: 0.050900 ms)
+  path: Assets/Scenes/LoginScene.unity
+  artifactKey: Guid(7cb30d20d01418845ad6a1bef396858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoginScene.unity using Guid(7cb30d20d01418845ad6a1bef396858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bcc526c194def13009aadab6da825d') in 0.017599 seconds
+  Import took 0.019418 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.368995 seconds.
+  Time since last request: 2.822207 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0299de27db044574cb4f19790820a245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0299de27db044574cb4f19790820a245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43330a8307c107950695d35dd030386') in 0.010541 seconds
+  Import took 0.014446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001197 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0299de27db044574cb4f19790820a245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0299de27db044574cb4f19790820a245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43330a8307c107950695d35dd030386') in 0.003795 seconds
+  Import took 0.006553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.187873 seconds.
   path: Assets/Scripts/CreateResponse.cs
   artifactKey: Guid(849e5bda8d4a9ff449737f54914e0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CreateResponse.cs using Guid(849e5bda8d4a9ff449737f54914e0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bccba546ed9f370e42a9265948d37f') in 0.006279 seconds
-  Import took 0.008190 seconds .
+Start importing Assets/Scripts/CreateResponse.cs using Guid(849e5bda8d4a9ff449737f54914e0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d363b1418086cdbcf51237bab2163f') in 0.070827 seconds
+  Import took 0.073523 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Scripts/LoginResponse.cs
-  artifactKey: Guid(31b8c1f9ea8bc5541a81978ef79537c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoginResponse.cs using Guid(31b8c1f9ea8bc5541a81978ef79537c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be0eb929f613d2003d87cbd622c33a7') in 0.001899 seconds
-  Import took 0.003748 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000553 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.613 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1585.
-Total: 2.559500 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.056100 ms MarkObjects: 2.238200 ms  DeleteObjects: 0.061200 ms)
+  Time since last request: 2.791301 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa2340a81bb2ce3f249f400153e80b9') in 0.008979 seconds
+  Import took 0.011772 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 402.281829 seconds.
-  path: Assets/Scripts/CreateResponse.cs
-  artifactKey: Guid(849e5bda8d4a9ff449737f54914e0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CreateResponse.cs using Guid(849e5bda8d4a9ff449737f54914e0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b66cfa28c74c8fd2d7e567b1904c5f') in 0.003688 seconds
-  Import took 0.005931 seconds .
+  Time since last request: 0.000687 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa2340a81bb2ce3f249f400153e80b9') in 0.003362 seconds
+  Import took 0.006298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.236408 seconds.
+  path: Assets/Scripts/GameAccount.cs
+  artifactKey: Guid(21219270d701a4e4392acf5287c53ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameAccount.cs using Guid(21219270d701a4e4392acf5287c53ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd3c0d55c3f7f4187efd53a30cbf4aa') in 0.012807 seconds
+  Import took 0.014678 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000579 seconds.
+Registered in 0.000726 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.685 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1588.
-Total: 2.853900 ms (FindLiveObjects: 0.159700 ms CreateObjectMapping: 0.040100 ms MarkObjects: 2.596300 ms  DeleteObjects: 0.056800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000741 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.597 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1591.
-Total: 1.500500 ms (FindLiveObjects: 0.126900 ms CreateObjectMapping: 0.028000 ms MarkObjects: 1.302900 ms  DeleteObjects: 0.042000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000561 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.647 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
 Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1594.
-Total: 4.028700 ms (FindLiveObjects: 0.532300 ms CreateObjectMapping: 0.235300 ms MarkObjects: 3.198100 ms  DeleteObjects: 0.061500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000574 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.605 seconds
+- Completed reload, in  0.914 seconds
 Platform modules already initialized, skipping
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1597.
-Total: 1.557400 ms (FindLiveObjects: 0.124100 ms CreateObjectMapping: 0.027500 ms MarkObjects: 1.363900 ms  DeleteObjects: 0.041200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000544 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.4 MB.
 
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 2.411700 ms (FindLiveObjects: 0.275400 ms CreateObjectMapping: 0.085600 ms MarkObjects: 1.958800 ms  DeleteObjects: 0.090400 ms)
 
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1600.
-Total: 1.488200 ms (FindLiveObjects: 0.123500 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.282800 ms  DeleteObjects: 0.047200 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 20.155305 seconds.
+  path: Assets/Artworks
+  artifactKey: Guid(87ec5a55a25c6e64486eb2c74b51bd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artworks using Guid(87ec5a55a25c6e64486eb2c74b51bd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec6dbe414e9b4f7a0c3f1dcced02c65') in 0.013437 seconds
+  Import took 0.015660 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001131 seconds.
+Registered in 0.001632 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
+- Completed reload, in  1.016 seconds
 Platform modules already initialized, skipping
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1603.
-Total: 1.559000 ms (FindLiveObjects: 0.179200 ms CreateObjectMapping: 0.038800 ms MarkObjects: 1.289900 ms  DeleteObjects: 0.049700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1581.
+Total: 2.498100 ms (FindLiveObjects: 0.140200 ms CreateObjectMapping: 0.040100 ms MarkObjects: 2.257000 ms  DeleteObjects: 0.059500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.676066 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(974f9dff24404e54d9a14a78dc36cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(974f9dff24404e54d9a14a78dc36cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0018aa067affd48c414b0d3b5678dade') in 0.014799 seconds
+  Import took 0.016765 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000545 seconds.
+Registered in 0.001240 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1606.
-Total: 2.490600 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.054500 ms MarkObjects: 2.224100 ms  DeleteObjects: 0.065900 ms)
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1584.
+Total: 1.747700 ms (FindLiveObjects: 0.131600 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.534100 ms  DeleteObjects: 0.052400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1010.090448 seconds.
+  path: Assets/Artworks/Scripts
+  artifactKey: Guid(369d5415ad07c72448fe484180655c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artworks/Scripts using Guid(369d5415ad07c72448fe484180655c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f01e4e1e49a154d99e1c946aa343ea1') in 0.013785 seconds
+  Import took 0.016999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002923 seconds.
+  path: Assets/Artworks/Scripts
+  artifactKey: Guid(369d5415ad07c72448fe484180655c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artworks/Scripts using Guid(369d5415ad07c72448fe484180655c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f01e4e1e49a154d99e1c946aa343ea1') in 0.002987 seconds
+  Import took 0.006360 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000926 seconds.
+Registered in 0.000941 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.651 seconds
+- Completed reload, in  0.843 seconds
 Platform modules already initialized, skipping
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
@@ -375,233 +269,60 @@ Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1609.
-Total: 1.650700 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.059200 ms MarkObjects: 1.322900 ms  DeleteObjects: 0.048800 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1587.
+Total: 3.096200 ms (FindLiveObjects: 0.152400 ms CreateObjectMapping: 0.058100 ms MarkObjects: 2.741000 ms  DeleteObjects: 0.142800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000477 seconds.
+Registered in 0.001146 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.620 seconds
+- Completed reload, in  0.816 seconds
 Platform modules already initialized, skipping
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
-Total: 2.007400 ms (FindLiveObjects: 0.120300 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.806500 ms  DeleteObjects: 0.049400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1591.
+Total: 2.217500 ms (FindLiveObjects: 0.438700 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.635600 ms  DeleteObjects: 0.073400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2308.556611 seconds.
+  path: Assets/Scripts/Login.cs
+  artifactKey: Guid(86aeec6114fc6ef48b728a09bf2eece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Login.cs using Guid(86aeec6114fc6ef48b728a09bf2eece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3711debb1407768d4b2b5db3640b498a') in 0.013721 seconds
+  Import took 0.015978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024817 seconds.
+  path: Assets/Scripts/Login.cs
+  artifactKey: Guid(86aeec6114fc6ef48b728a09bf2eece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Login.cs using Guid(86aeec6114fc6ef48b728a09bf2eece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3711debb1407768d4b2b5db3640b498a') in 0.002312 seconds
+  Import took 0.004528 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000532 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.590 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 1.602500 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.047000 ms MarkObjects: 1.351300 ms  DeleteObjects: 0.043500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000593 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.599 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1618.
-Total: 1.549500 ms (FindLiveObjects: 0.145100 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.331800 ms  DeleteObjects: 0.043700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000552 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.591 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
-Total: 1.753900 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.415800 ms  DeleteObjects: 0.049200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000634 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
-Total: 4.196700 ms (FindLiveObjects: 0.435600 ms CreateObjectMapping: 0.120900 ms MarkObjects: 3.545900 ms  DeleteObjects: 0.092800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000566 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.596 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1627.
-Total: 1.584400 ms (FindLiveObjects: 0.143500 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.366300 ms  DeleteObjects: 0.042000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000580 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
-Total: 1.702400 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.462600 ms  DeleteObjects: 0.045900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000606 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.644 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1633.
-Total: 1.828500 ms (FindLiveObjects: 0.149600 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.575600 ms  DeleteObjects: 0.070100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000510 seconds.
+Registered in 0.000701 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
@@ -610,275 +331,297 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.592 seconds
+- Completed reload, in  0.979 seconds
 Platform modules already initialized, skipping
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1636.
-Total: 2.234600 ms (FindLiveObjects: 0.384300 ms CreateObjectMapping: 0.095300 ms MarkObjects: 1.701500 ms  DeleteObjects: 0.051700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1594.
+Total: 4.462100 ms (FindLiveObjects: 0.279900 ms CreateObjectMapping: 0.074500 ms MarkObjects: 3.859500 ms  DeleteObjects: 0.243100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000567 seconds.
+Registered in 0.002436 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
+- Completed reload, in  1.081 seconds
 Platform modules already initialized, skipping
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1639.
-Total: 1.648500 ms (FindLiveObjects: 0.137800 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.410400 ms  DeleteObjects: 0.065600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1597.
+Total: 4.040200 ms (FindLiveObjects: 0.563200 ms CreateObjectMapping: 0.081100 ms MarkObjects: 3.248100 ms  DeleteObjects: 0.143000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2286.302833 seconds.
+  Time since last request: 418.195186 seconds.
   path: Assets/Scripts/Login.cs
-  artifactKey: Guid(6901fe9d6e8deb545ba3f35ac7875c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Login.cs using Guid(6901fe9d6e8deb545ba3f35ac7875c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda0738d7b2723a4abbc0f04e2a9a591') in 0.006716 seconds
-  Import took 0.008598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018916 seconds.
-  path: Assets/Scripts/Login.cs
-  artifactKey: Guid(6901fe9d6e8deb545ba3f35ac7875c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Login.cs using Guid(6901fe9d6e8deb545ba3f35ac7875c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda0738d7b2723a4abbc0f04e2a9a591') in 0.001718 seconds
-  Import took 0.003249 seconds .
+  artifactKey: Guid(86aeec6114fc6ef48b728a09bf2eece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Login.cs using Guid(86aeec6114fc6ef48b728a09bf2eece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcfc7373472e9887168196b35b4d656') in 0.006713 seconds
+  Import took 0.009902 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000543 seconds.
+Registered in 0.002245 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
+- Completed reload, in  0.978 seconds
 Platform modules already initialized, skipping
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1642.
-Total: 1.637300 ms (FindLiveObjects: 0.222800 ms CreateObjectMapping: 0.049900 ms MarkObjects: 1.310800 ms  DeleteObjects: 0.053000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1600.
+Total: 3.604800 ms (FindLiveObjects: 0.229500 ms CreateObjectMapping: 0.110300 ms MarkObjects: 3.197900 ms  DeleteObjects: 0.065700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000546 seconds.
+Registered in 0.001578 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.623 seconds
+- Completed reload, in  0.985 seconds
 Platform modules already initialized, skipping
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1645.
-Total: 2.248200 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.057700 ms MarkObjects: 1.901200 ms  DeleteObjects: 0.057900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 876.297188 seconds.
-  path: Assets/Scripts/Login.cs
-  artifactKey: Guid(6901fe9d6e8deb545ba3f35ac7875c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Login.cs using Guid(6901fe9d6e8deb545ba3f35ac7875c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86aa8efbfca75c1afab3cf3f388bec96') in 0.003964 seconds
-  Import took 0.006274 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000667 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.4 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1648.
-Total: 1.642200 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.410600 ms  DeleteObjects: 0.044600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000576 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.627 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.4 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1651.
-Total: 1.688400 ms (FindLiveObjects: 0.127900 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.483500 ms  DeleteObjects: 0.043600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000659 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.624 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.4 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1654.
-Total: 2.322100 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.055000 ms MarkObjects: 1.851800 ms  DeleteObjects: 0.049600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 577.555700 seconds.
-  path: Assets/Scripts/Login.cs
-  artifactKey: Guid(6901fe9d6e8deb545ba3f35ac7875c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Login.cs using Guid(6901fe9d6e8deb545ba3f35ac7875c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fcbd30584ff67e9e510114d7fe0799') in 0.005584 seconds
-  Import took 0.007661 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000589 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.623 seconds
-Platform modules already initialized, skipping
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
 
-Shader N3K/SimpleDeformation uses undefined Queue: '0'
-
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.4 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1657.
-Total: 1.397200 ms (FindLiveObjects: 0.138300 ms CreateObjectMapping: 0.026600 ms MarkObjects: 1.179800 ms  DeleteObjects: 0.051600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 183.673015 seconds.
-  path: Assets/Scripts/Login.cs
-  artifactKey: Guid(6901fe9d6e8deb545ba3f35ac7875c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Login.cs using Guid(6901fe9d6e8deb545ba3f35ac7875c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0478c17d8c8a45ef7445ed92e9161622') in 0.004110 seconds
-  Import took 0.005700 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1603.
+Total: 6.004300 ms (FindLiveObjects: 0.676100 ms CreateObjectMapping: 0.540000 ms MarkObjects: 4.641600 ms  DeleteObjects: 0.143500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000612 seconds.
+Registered in 0.002415 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.639 seconds
+- Completed reload, in  1.245 seconds
 Platform modules already initialized, skipping
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
 Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1606.
+Total: 4.375200 ms (FindLiveObjects: 0.727500 ms CreateObjectMapping: 0.147500 ms MarkObjects: 3.353300 ms  DeleteObjects: 0.142400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001568 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Platform modules already initialized, skipping
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1609.
+Total: 2.810000 ms (FindLiveObjects: 0.595700 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.026100 ms  DeleteObjects: 0.080800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Platform modules already initialized, skipping
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 4.762500 ms (FindLiveObjects: 0.560300 ms CreateObjectMapping: 0.168700 ms MarkObjects: 3.901600 ms  DeleteObjects: 0.128500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1615.
+Total: 3.490200 ms (FindLiveObjects: 0.297700 ms CreateObjectMapping: 0.053800 ms MarkObjects: 2.992800 ms  DeleteObjects: 0.143800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000975 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1618.
+Total: 1.780400 ms (FindLiveObjects: 0.129200 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.565100 ms  DeleteObjects: 0.049800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.4 MB.
-System memory in use after: 61.4 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1660.
-Total: 1.445500 ms (FindLiveObjects: 0.170800 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.199900 ms  DeleteObjects: 0.043200 ms)
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 3.748100 ms (FindLiveObjects: 0.285800 ms CreateObjectMapping: 0.077800 ms MarkObjects: 3.249400 ms  DeleteObjects: 0.131700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000766 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Platform modules already initialized, skipping
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Shader N3K/SimpleDeformation uses undefined Queue: '0'
+
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
+Total: 2.461700 ms (FindLiveObjects: 0.270900 ms CreateObjectMapping: 0.072900 ms MarkObjects: 2.057800 ms  DeleteObjects: 0.058400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

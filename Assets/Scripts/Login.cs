@@ -3,191 +3,64 @@ using TMPro;
 using System.Collections;
 using UnityEngine.Networking;
 using UnityEngine.UI;
-using System.Text.RegularExpressions;
 
 public class Login : MonoBehaviour
 {
-    private const string PASSWORD_REGEX = "(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,24})";
+	[SerializeField] private string authenticationEndpoint = "http://127.0.0.1:13756/account";
 
-    [SerializeField] private string loginEndpoint = "http://127.0.0.1:13756/account/login";
-    [SerializeField] private string createEndpoint = "http://127.0.0.1:13756/account/create";
-
-    [SerializeField] private TextMeshProUGUI alertText;
-    [SerializeField] private Button loginButton;
-    [SerializeField] private Button createButton;
+	[SerializeField] private TextMeshProUGUI alertText;
+	[SerializeField] private Button loginButton;
     [SerializeField] private TMP_InputField usernameInputField;
-    [SerializeField] private TMP_InputField passwordInputField;
+	[SerializeField] private TMP_InputField passwordInputField;
 
-    public void OnLoginClick()
-    {
-        alertText.text = "Signing in...";
-        ActivateButtons(false);
+	public void OnLoginClick()
+	{
+		alertText.text = "Singin in...";
+		loginButton.interactable = false;
+		StartCoroutine(TryLogin());
+	}
 
-        StartCoroutine(TryLogin());
-    }
+	private IEnumerator TryLogin()
+	{
 
-    public void OnCreateClick()
-    {
-        alertText.text = "Creating account...";
-        ActivateButtons(false);
+		string username = usernameInputField.text;
+		string password = passwordInputField.text;
 
-        StartCoroutine(TryCreate());
-    }
+		UnityWebRequest request = UnityWebRequest.Get($"{authenticationEndpoint}?rUsername={username}&rPassword={password}");
+		var handler = request.SendWebRequest();
 
-    private IEnumerator TryLogin()
-    {
-        string username = usernameInputField.text;
-        string password = passwordInputField.text;
+		float startTime = 0.0f;
+		while (!handler.isDone) 
+		{
+			startTime += Time.deltaTime;
 
-        if (username.Length < 3 || username.Length > 24)
-        {
-            alertText.text = "Invalid username";
-            ActivateButtons(true);
-            yield break;
-        }
+			if(startTime > 10.0f)
+			{
+				break;
+			}
 
-        if (!Regex.IsMatch(password, PASSWORD_REGEX))
-        {
-            alertText.text = "Invalid credentials";
-            ActivateButtons(true);
-            yield break;
-        }
+			yield return null; 
+		}
 
-        WWWForm form = new WWWForm();
-        form.AddField("rUsername", username);
-        form.AddField("rPassword", password);
+		if(request.result == UnityWebRequest.Result.Success) 
+		{
+			if(request.downloadHandler.text != "Invalid credentials") //login success?
+			{
+				alertText.text = "Welcome!!";
+				loginButton.interactable = false;
+			}
+			else
+			{
+				alertText.text = "Invalid credentials";
+				loginButton.interactable = true;
+			}
+		}
+		else
+		{
+			alertText.text = "Error connecting to the server...";
+			loginButton.interactable = true;
+		}
 
-        UnityWebRequest request = UnityWebRequest.Post(loginEndpoint, form);
-        var handler = request.SendWebRequest();
-
-        float startTime = 0.0f;
-        while (!handler.isDone)
-        {
-            startTime += Time.deltaTime;
-
-            if (startTime > 10.0f)
-            {
-                break;
-            }
-
-            yield return null;
-        }
-
-        if (request.result == UnityWebRequest.Result.Success)
-        {
-            LoginResponse response = JsonUtility.FromJson<LoginResponse>(request.downloadHandler.text);
-
-            if (response.code == 0) // login success?
-            {
-                ActivateButtons(false);
-                alertText.text = "Welcome " + ((response.data.adminFlag == 1) ? " Admin" : "");
-            }
-            else
-            {
-                switch (response.code)
-                {
-                    case 1:
-                        alertText.text = "Invalid credentials";
-                        ActivateButtons(true);
-                        break;
-                    default:
-                        alertText.text = "Corruption detected";
-                        ActivateButtons(false);
-                        break;
-                }
-            }
-        }
-        else
-        {
-            alertText.text = "Error connecting to the server...";
-            ActivateButtons(true);
-        }
-
-
-        yield return null;
-    }
-
-    private IEnumerator TryCreate()
-    {
-        string username = usernameInputField.text;
-        string password = passwordInputField.text;
-
-        if (username.Length < 3 || username.Length > 24)
-        {
-            alertText.text = "Invalid username";
-            ActivateButtons(true);
-            yield break;
-        }
-
-        if (!Regex.IsMatch(password, PASSWORD_REGEX))
-        {
-            alertText.text = "Invalid credentials";
-            ActivateButtons(true);
-            yield break;
-        }
-
-        WWWForm form = new WWWForm();
-        form.AddField("rUsername", username);
-        form.AddField("rPassword", password);
-
-        UnityWebRequest request = UnityWebRequest.Post(createEndpoint, form);
-        var handler = request.SendWebRequest();
-
-        float startTime = 0.0f;
-        while (!handler.isDone)
-        {
-            startTime += Time.deltaTime;
-
-            if (startTime > 10.0f)
-            {
-                break;
-            }
-
-            yield return null;
-        }
-
-        if (request.result == UnityWebRequest.Result.Success)
-        {
-            Debug.Log(request.downloadHandler.text);
-            CreateResponse response = JsonUtility.FromJson<CreateResponse>(request.downloadHandler.text);
-
-            if (response.code == 0) 
-            {
-                alertText.text = "Account has been created!";
-            }
-            else
-            {
-                switch (response.code)
-                {
-                    case 1:
-                        alertText.text = "Invalid credentials";
-                        break;
-                    case 2:
-                        alertText.text = "Username is already taken";
-                        break;
-                    case 3:
-                        alertText.text = "Password is unsafe";
-                        break;
-                    default:
-                        alertText.text = "Corruption detected";
-                        break;
-
-                }
-            }
-        }
-        else
-        {
-            alertText.text = "Error connecting to the server...";
-        }
-
-        ActivateButtons(true);
-
-        yield return null;
-    }
-
-    private void ActivateButtons(bool toggle)
-    {
-        loginButton.interactable = toggle;
-        createButton.interactable = toggle;
-    }
+		yield return null;
+	}
 }
