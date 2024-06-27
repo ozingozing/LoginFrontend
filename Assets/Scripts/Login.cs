@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 public class Login : MonoBehaviour
 {
-	private const string PASSWORD_REGEX = "/^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,24}$/";
+	private const string PASSWORD_REGEX = @"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,24}$";
 
 	[SerializeField] private string loginEndpoint = "http://127.0.0.1:13756/account/login";
 	[SerializeField] private string createEndpoint = "http://127.0.0.1:13756/account/create";
@@ -17,6 +17,12 @@ public class Login : MonoBehaviour
 	[SerializeField] private Button createButton;
 	[SerializeField] private TMP_InputField usernameInputField;
 	[SerializeField] private TMP_InputField passwordInputField;
+
+	private void Awake()
+	{
+		// 입력이 끝났을 때 ValidatePassword 메서드를 호출하도록 이벤트 리스너 추가
+		passwordInputField.onEndEdit.AddListener(delegate { OnLoginClick(); });
+	}
 
 	public void OnLoginClick()
 	{
@@ -49,7 +55,7 @@ public class Login : MonoBehaviour
 
 		if (!Regex.IsMatch(password, PASSWORD_REGEX))
 		{
-			alertText.tag = "Invalid credentials";
+			alertText.text = "Invalid credentials";
 			ActivateButtons(true);
 			yield break;
 		}
@@ -124,7 +130,7 @@ public class Login : MonoBehaviour
 
 		if (!Regex.IsMatch(password, PASSWORD_REGEX))
 		{
-			alertText.tag = "Invalid credentials";
+			alertText.text = "Invalid credentials";
 			ActivateButtons(true);
 			yield break;
 		}
