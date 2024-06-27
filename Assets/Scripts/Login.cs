@@ -40,7 +40,7 @@ public class Login : MonoBehaviour
 		if (username.Length < 3 || username.Length > 24)
 		{
 			alertText.text = "Invalid username";
-			loginButton.interactable = true;
+			ActivateButtons(true);
 
 			yield break;
 		}
@@ -48,7 +48,7 @@ public class Login : MonoBehaviour
 		if (password.Length < 3 || password.Length > 24)
 		{
 			alertText.text = "Invalid password";
-			loginButton.interactable = true;
+			ActivateButtons(true);
 
 			yield break;
 		}
@@ -75,19 +75,29 @@ public class Login : MonoBehaviour
 
 		if(request.result == UnityWebRequest.Result.Success) 
 		{
-			if(request.downloadHandler.text != "Invalid credentials") //login success?
+			Debug.Log(request.downloadHandler.text);
+			LoginResponse response = JsonUtility.FromJson<LoginResponse>(request.downloadHandler.text);
+
+			if(response.code == 0) //login success?
 			{
 				ActivateButtons(false);
-				GameAccount returnedAccount =
-					JsonUtility.FromJson<GameAccount>(request.downloadHandler.text);
 				alertText.text = "Welcome "
-					+ returnedAccount.username
-					+ ((returnedAccount.adminFlag == 1) ? " Admin" : "");
+					+ ((response.data.adminFlag == 1) ? " Admin" : "");
 			}
 			else
 			{
-				alertText.text = "Invalid credentials";
-				ActivateButtons(true);
+				switch (response.code)
+				{
+					case 1:
+						alertText.text = "Invalid credentials";
+						ActivateButtons(true);
+						break;
+					default:
+						alertText.text = "Corruption detected";
+						ActivateButtons(false);
+						break;
+				}
+				
 			}
 		}
 		else
@@ -101,7 +111,6 @@ public class Login : MonoBehaviour
 
 	private IEnumerator TryCreate()
 	{
-
 		string username = usernameInputField.text;
 		string password = passwordInputField.text;
 
@@ -143,15 +152,28 @@ public class Login : MonoBehaviour
 
 		if (request.result == UnityWebRequest.Result.Success)
 		{
-			if (request.downloadHandler.text != "Invalid credentials" 
-				&& request.downloadHandler.text != "Username is already taken") //login success?
+			CreateResponse response =
+					JsonUtility.FromJson<CreateResponse>(request.downloadHandler.text);
+
+			if (response.code == 0) //login success?
 			{
-				GameAccount returnedAccount =
-					JsonUtility.FromJson<GameAccount>(request.downloadHandler.text);
 				alertText.text = "Account has been created";
 			}
 			else
-				alertText.text = "Username is already taken";
+			{
+				switch (response.code)
+				{
+					case 1:
+						alertText.text = "Invalid credentials";
+						break;
+					case 2:
+						alertText.text = "Username is already taken";
+						break;
+					default:
+						alertText.text = "Corruption detected";
+						break;
+				}
+			}
 		}
 		else
 			alertText.text = "Error connecting to the server...";
